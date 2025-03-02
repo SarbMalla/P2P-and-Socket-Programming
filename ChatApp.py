@@ -26,7 +26,7 @@ class GroupChat:
         self.welcome_frame = tk.Frame(self.root, bg=BG_COLOR)
         self.welcome_frame.pack(expand=True, fill="both")
 
-        tk.Label(self.welcome_frame, text="Group Chat", font=("Arial", 16, "bold"), fg=TEXT_COLOR, bg=BG_COLOR).pack(pady=10)
+        tk.Label(self.welcome_frame, text="Group- Chat App", font=("Arial", 16, "bold"), fg=TEXT_COLOR, bg=BG_COLOR).pack(pady=10)
         
         tk.Label(self.welcome_frame, text="Enter Username:", font=FONT, fg=TEXT_COLOR, bg=BG_COLOR).pack()
         self.username_entry = tk.Entry(self.welcome_frame, width=30, bg=ENTRY_BG, fg=TEXT_COLOR, font=FONT)
