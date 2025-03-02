@@ -15,7 +15,7 @@ FONT = ("Arial", 12)
 class GroupChat:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Group Chat")
+        self.root.title("Group- Chat App")
         self.root.geometry("500x500")
         self.root.configure(bg=BG_COLOR)
 
